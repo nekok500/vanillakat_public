@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "vanillakat"
+version = "0.1.0"
+description = ""
+authors = ["莉於 <47474250+eDaMAmeeee@users.noreply.github.com>", "ねこかわいい <me@nekok500.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+discord = "^2.3.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+isort = "^5.13.2"
+pyright = "^1.1.352"
+jishaku = "^2.5.2"
+flake8 = "^7.0.0"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
