@@ -11,7 +11,7 @@ discord = "^2.3.2"
 
 
 [tool.poetry.group.dev.dependencies]
-black = "^24.2.0"
+black = "^26.0.0"
 isort = "^5.13.2"
 pyright = "^1.1.352"
 jishaku = "^2.5.2"
